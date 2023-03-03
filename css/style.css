@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+/* Colors and fonts */
+
+body {
+background-color: rgb(220, 220, 220);
+color: rgb(50, 50, 50);
+font-family: Lora;
+font-size: 16px;
+}
+
+h1 {
+    color: black;
+    font-family: Calibri;
+    font-weight: 900;
+    letter-spacing: 1px;
+    font-size: 45px;
+    font
+}
+
+h2 {
+    color: black;
+    font-family: calibri;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+a {
+font-family: Lora;
+    text-decoration: none;
+    color: #b50000;
+}
+
+a:hover {
+    color: black;
+}
+
+/* Custom design with class*/
+
+.container {
+width: 800px;
+margin: 100px auto;
+}
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+border-radius: 5px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.btn-blue {
+background-color: rgb(100,100,100);
+color: white;
+padding: 10px 15px;
+border-radius: 100px;
+}
+
+.btn-blue:hover {
+background-color: black;
+color: white;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+display: inline ;
+padding: 100px;
+}
+
+.list-inline i {
+font-size: 100px;
+color: rgb(100,100,100);
+}
+.list-inline i:hover {
+color : black;
+}
+
+/* Design adjustments using id*/
+
+body{
+	font-family: 'Lora', serif;
+	font-size: 18px;
+}
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+a{
+	text-decorations: none;
+}
